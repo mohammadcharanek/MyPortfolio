@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Mohammad Ali Charanek</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <h1>Mohammad Ali Charanek</h1>
+        <nav>
+            <a href="#about" class="active">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Welcome to My Portfolio!</h2>
+        <p>Hi, I'm Mohammad Ali Charanek, a passionate software and web developer. I specialize in creating impactful digital solutions.</p>
+        <a href="#projects" class="view-work-btn">View My Work</a>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="images/MyPic.jpg" alt="Mohammad Ali Charanek">
+            </div>
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>
+                    Hello! I’m <strong>Mohammad Ali Charanek</strong>, a skilled software and web developer with expertise in technologies like 
+                    Java, JavaScript, PHP, Laravel, C++, VB.NET, C#, Python, Django, React, jQuery, Ajax, ASP.Net, SQL Server, and MySQL. 
+                    I am passionate about creating efficient and user-friendly software solutions.
+                </p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <!-- Projects Section -->
+<section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+        <div class="project">
+            <h3>FastTrackPOS</h3>
+            <p><strong>Personal project - 2024</strong><br>Developed a medium-sized Point of Sale (POS) system using C# and SQL. Key features include product management, barcode-based checkout, sales tracking, and real-time stock updates. Designed user-friendly interfaces and implemented efficient database management for retail businesses.</p>
+        </div>
+        <div class="project">
+            <h3>Accounting System for a Sewing Factory</h3>
+            <p><strong>Riyadh, Saudi Arabia - 2018</strong><br>Developed a comprehensive accounting system to manage financial operations using PHP, JavaScript, Ajax, MySQL, HTML, and CSS. Implemented both front-end and back-end functionalities to ensure seamless user experience.</p>
+        </div>
+        <div class="project">
+            <h3>Recruiting System for Foreign Workers</h3>
+            <p><strong>Jebara Company - 2018</strong><br>Designed and developed a system to streamline the recruitment process for foreign workers. The system enhanced recruitment operations through automation and system integration.</p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Skills Section -->
+    <!-- Skills Section -->
+<!-- Skills Section -->
+<section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+        <div class="skill">
+            <h3>Programming Languages</h3>
+            <p>Java, C++, C#, Python, PHP, VB.NET</p>
+        </div>
+        <div class="skill">
+            <h3>Web Technologies</h3>
+            <p>JavaScript, React, jQuery, Ajax, HTML, CSS</p>
+        </div>
+        <div class="skill">
+            <h3>Frameworks & Libraries</h3>
+            <p>Laravel, Django, ASP.Net</p>
+        </div>
+        <div class="skill">
+            <h3>Databases</h3>
+            <p>SQL Server, MySQL</p>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to collaborate or have a project in mind, feel free to reach out to me.</p>
+        <form class="contact-form" action="send_message.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Mohammad Ali Charanek. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    <script src="formsubmit.js"></script>
+</body>
+</html>
